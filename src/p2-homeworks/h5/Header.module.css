@@ -1,0 +1,30 @@
+.header {
+  height: 60px;
+  display: flex;
+  align-items: center;
+  background-color: #3f3fa8;
+}
+
+.menu {
+  display: flex;
+  align-items: center;
+  list-style-type: none;
+  margin: 0;
+}
+
+.menu li+li {
+  margin-left: 20px;
+}
+
+.menuItem {
+  cursor: pointer;
+}
+
+.link {
+  color: #fff;
+  text-decoration: none;
+}
+
+.active {
+  text-decoration: underline;
+}
